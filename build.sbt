@@ -11,6 +11,8 @@ libraryDependencies += ws
 libraryDependencies += filters
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 
+
+PlayKeys.devSettings:=Seq("play.server.http.port" -> "9001")
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "sbux.poc.controllers._"
 
